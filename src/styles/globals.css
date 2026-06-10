@@ -1,0 +1,13 @@
+/* Film grain shift animation — used by Hero, Manifesto, Journey, Results */
+@keyframes grainShift {
+  0%, 100% { transform: translate(0, 0); }
+  10%       { transform: translate(-1.5%, -2%); }
+  20%       { transform: translate(2%, 1%); }
+  30%       { transform: translate(-1%, 2.5%); }
+  40%       { transform: translate(2.5%, -1.5%); }
+  50%       { transform: translate(-2%, 1.5%); }
+  60%       { transform: translate(1.5%, -2.5%); }
+  70%       { transform: translate(-2.5%, 1%); }
+  80%       { transform: translate(2%, 2%); }
+  90%       { transform: translate(-1%, -1.5%); }
+}
